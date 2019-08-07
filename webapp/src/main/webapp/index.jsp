@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   
-    <title> Jenkins  </title>
+  <head>
+  <title>HTML Reference</title>
+</head>
+  
 <body>
 
 
