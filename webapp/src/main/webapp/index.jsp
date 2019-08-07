@@ -7,8 +7,7 @@
   
 <body>
 
-
-26th July 2019
+Aug 7th session
 
 <div style="position:relative;">
   <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
