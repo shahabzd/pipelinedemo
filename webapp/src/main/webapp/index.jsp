@@ -6,8 +6,7 @@
 </head>
   
 <body>
-
-Aug 7th session
+  <h1> Devops Class triaining 3rd october </h1>
 
 <div style="position:relative;">
   <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
