@@ -9,6 +9,8 @@
   <h1> Devops Class triaining 3rd october </h1>
   
   i have configured webhook and Jenkins pipeline
+  
+  removed deploy job and added everything in same job
 
 <div style="position:relative;">
   <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
