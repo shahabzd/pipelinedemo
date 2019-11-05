@@ -1,14 +1,14 @@
 pipeline {
     agent any
-    stages {
-        stage ('Compile Stage 1') {
+    stages{
+        stage('Compile Stage 1') {
             steps {
                 withMaven(maven : 'my-maven') {
                     sh 'mvn clean compile'
                 }
             }
         }
-        stage ('Testing Stage') {
+        stage('Testing Stage') {
             steps {
                 withMaven(maven : 'my-maven') {
                     sh 'mvn test'
@@ -19,18 +19,6 @@ pipeline {
             steps {
                 withMaven(maven : 'my-maven') {
                     sh 'mvn package'
-                }
-            }
-        }
-		stage('Testing Stage') {
-            steps {
-				withMaven(maven : 'my-maven'){
-                sh 'mvn test'
-				}
-            }
-            post {
-                always {
-                    junit 'server/target/surefire-reports/*.xml'
                 }
             }
         }
